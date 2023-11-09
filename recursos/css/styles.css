@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+header * {
+    margin: 0 50px ;
+}
+
+header img {
+    height: 50px;
+}
+
+header:hover {
+    animation-name: flashing;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flashing {
+    from {
+        border-color: black;
+        color: black
+    }
+    50% {
+        border-color: gold;
+        color: gold;
+    }
+}
+
+header img:hover {
+    animation-name: spinning;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinning {
+
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,104 @@
+* { 
+	margin:0;
+	padding:0;
+}
+
+body{
+    background-image: url('../img/curtains.jpg') ;
+    background-size: cover;
+	color: #333;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif	;
+	font-size: 13px;
+}
+.container{
+	position:relative;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+.clr{
+	clear: both;
+}
+.main{
+	position:relative;
+    width:680px;
+    margin: 0 auto;
+    
+}
+h1{
+	font-family: "Stencil Std", cursive;
+	/* margin:0px;
+	padding:20px 20px 10px 20px; */
+	font-size:6em;
+	color:#333;
+    text-shadow:1px 1px 1px #fff;
+	text-align:left;
+	font-weight:400;
+    /* text-align:center; */
+}
+.vista {
+   width: 300px;
+   height: 450px;
+   margin: 10px;
+   float: left;
+   border: 10px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   cursor: default;
+   background-color:bisque;
+}
+.vista .mask,.vista .content {
+   width: 300px;
+   height: 100px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.vista img {
+   display: block;
+   position: relative;
+   width: 100%;
+}
+.vista h2 {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   font-size: 17px;
+   padding: 10px;
+   background:red;
+   margin: 20px 0 0 0;
+   font-family: serif;
+}
+.vista p {
+   font-family: Georgia, serif;
+   font-style: italic;
+   font-size: 12px;
+   position: relative;
+   color: #fff;
+   padding: 10px 20px 20px;
+   text-align: center;
+}
+.vista a.info {
+   display: inline-block;
+   text-decoration: none;
+   border-radius: 20px;
+   padding: 7px 14px;
+   background:blue;
+   color: white;
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 0 1px #000;
+   -moz-box-shadow: 0 0 1px #000;
+   box-shadow: 0 0 1px #000;
+}
+.vista a.info:hover {
+   -webkit-box-shadow: 0 0 5px yellow;
+   -moz-box-shadow: 0 0 5px yellow;
+   box-shadow: 0 0 5px yellow;
+} 
